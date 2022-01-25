@@ -1,0 +1,32 @@
+/*---RESET---*/
+ul{
+    list-style: none;
+    display: contents;
+}
+
+/*---MYSTYLE_BACKGROUND COLOR---*/
+.ms_back-jeans{
+    background-color: #2C3E50;
+}
+
+.ms_back-bluewater{
+    background-color: #1ABC9C;
+}
+
+/*---FC: FONT COLOR---*/
+
+.fc_color-white{
+    color: white;
+}
+
+/*---TS: TEXT STYLE---*/
+
+.ts_uppercase{
+    text-transform: uppercase;
+}
+
+/*---BR: BORDER RADIUS---*/
+
+.br_round{
+
+}
