@@ -13,6 +13,30 @@ ul{
     background-color: #1ABC9C;
 }
 
+.ms_back-amaranth{
+    background-color: #BA4B63;
+}
+
+.ms_back-ocean{
+    background-color: #1EA4B6;
+}
+
+.ms_back-black{
+    background-color: #140F0F;
+}
+
+.ms_back-sky{
+    background-color: #1C83C1;
+}
+
+.ms_back-blue{
+    background-color: #0E38B5;
+}
+
+.ms_back-desert{
+    background-color: #CCB2A3;
+}
+
 /*---FC: FONT COLOR---*/
 
 .fc_color-white{
@@ -29,4 +53,22 @@ ul{
 
 .br_round{
 
+}
+
+/*---MN: MIN HEIGHT*/
+
+.mn-500{
+    min-height: 500px;
+}
+
+.mn-300{
+    min-height: 300px;
+}
+
+.mn-150{
+    min-height: 150px;
+}
+
+.mn-100{
+    min-height: 100px;
 }
