@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Bootstrap</title>
 </head>
 <body>
     <header>
-        <div class="container ms_back-jeans">
+        <!--<div class="container ms_back-jeans">
             <div class="row justify-content-around align-items-center text-white text-uppercase py-2">
                 <div class="col-3">
                     <h4 class="">
@@ -25,94 +26,126 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>-->
+            <nav class="navbar navbar-expand-sm navbar-dark ms_back-jeans justify-content-between">
+                <div class="container text-uppercase fw-bold text-white">
+                    <a class="navbar-brand" href="#">Start Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end gap-3 text-uppercase fw-bold text-white" id="navbarSupportedContent">
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
     </header>
     <main>
         <section>
             <div class="container-fluid">
                 <div class="container ms_back-bluewater">
                     <div class="row justify-content-center">
-                        <div class="col-3 text-center py-2">
-                            <img class="rounded-circle" src="https://picsum.photos/200/200">
+                        <div class="col-12 col-sm-6 col-md-5 text-center py-2">
+                            <img class="rounded-circle" src="img/avatar.svg">
                         </div>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-6 text-center text-uppercase text-white">
-                            <h1>
+                    <div class="row justify-content-center pt-3">
+                        <div class="col-12 text-center text-uppercase text-white fs-1 fw-bold">
+                            <h1 id="title">
                                 Start Bootstrap
                             </h1>
-                            <p>
-                                &Star;
-                            </p>
+                            <div class="light-star">
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-6 text-uppercase text-center text-white">
+                        <div class="col-6 text-uppercase text-center text-white fs-5 fw-bold">
                             <p>
                                 graphic artist - web designer - illustrator
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container py-2">
                     <div class="row justify-content-center">
-                        <div class="col-12 text-center text-uppercase text-black">
-                            <h1>
+                        <div class="col-12 text-center text-uppercase text-black fs-1 fw-bold">
+                            <h1 class="py-3">
                                 portfolio
                             </h1>
-                            <p>
-                                &star;
-                            </p>
+                            <div class="dark-star py-2">
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
-                    <div class="row justify-content-center gap-2">
-                        <div class="col-3 mn-100 ms_back-amaranth">
-                          pic
+                    <div class="row justify-content-between g-2">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <img class="round" src="img/cabin.png">
                         </div>
-                        <div class="col-3 mn-100 ms_back-ocean">
-                            pic
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <img class="round" src="img/cake.png">
                         </div>
-                        <div class="col-3 mn-100 ms_back-black">
-                            pic
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <img class="round" src="img/circus.png">
                         </div>
-                        <div class="col-3 mn-100 ms_back-sky">
-                            pic    
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <img class="round" src="img/game.png">
                         </div>
-                        <div class="col-3 mn-100 ms_back-blue">
-                            pic
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <img class="round" src="img/safe.png">
                         </div>
-                        <div class="col-3 mn-100 ms_back-desert">
-                            pic
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <img class="round" src="img/submarine.png">
                         </div>
 
                     </div>
                 </div>
                 <div class="container ms_back-bluewater py-2">
                     <div class="row justify-content-center">
-                        <div class="col-12 text-center text-uppercase text-white">
-                            <h1>
+                        <div class="col-12 text-center text-uppercase text-white fs-1 fw-bold">
+                            <h1 class="py-3">
                                 about
                             </h1>
-                            <p>
-                                &star;
-                            </p>
+                            <div class="light-star py-1">
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-6">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus possimus quos! Omnis.
-                            </p>
-                        </div>
-                        <div class="col-6">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos error quibusdam quas iure!
+                        <div class="col-12 text-justify text-white">
+                            <p class="text">
+                                Freelancer is a free bootstrap theme created by Start
+                                Bootstrap. The download includes the complete
+                                source files including HTMLC, CSS and JavaScript as
+                                well as optional LESS stylesheets for easy
+                                customiztion.
+
+                                Whether you're a student looking to showcase your
+                                work, a professional looking to attracts clients, or a 
+                                graphic artist looking to share your projects, this
+                                template is the perfect starting point.
+
+                                Freelancer is a free bootstrap theme created by Start
+                                Bootstrap. The download includes the complete
+                                source files including HTMLC, CSS and JavaScript as
+                                well as optional LESS stylesheets for easy
+                                customiztion.
                             </p>
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">        
-                            <button>
+                            <button class="download">
+                                <i class="fas fa-download"></i>
                                 Download
                             </button>
                         </div>
@@ -131,7 +164,9 @@
                     </div>
                     <div class="row">
                         <div class="col-12 border-bottom border-1 text-center">
-                            Prova
+                            <p>
+                                Name
+                            </p>
                         </div>
                         <div class="col-12 border-bottom border-1 text-center">
                             Prova
@@ -150,8 +185,8 @@
                 <div class="container mn-150 ms_back-denim">
                     <div class="row align-items-center justify-content-between ">
                         <div class="col-4 text-center">prova</div>
-                        <div class="col-4">prova</div>
-                        <div class="col-4">prova</div>
+                        <div class="col-4 text-center">prova</div>
+                        <div class="col-4 text-center">prova</div>
                     </div>
                 </div>
             </div>
